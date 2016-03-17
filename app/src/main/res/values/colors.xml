@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="light">#c7d8ff</color>
+
+    <color name="normal">#183883</color>
+
+    <color name="dark">#11275c</color>
+
+    <color name="semi_black">#aa000000</color>
+
+</resources>

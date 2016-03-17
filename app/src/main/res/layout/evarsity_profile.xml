@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/evarsity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/border_2">
+
+    <ImageView
+        android:id="@+id/evarsity_profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/border_1" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_reg_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_fathers_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_date_of_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_blood_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_office"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/border_1"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_profile_validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+</LinearLayout>

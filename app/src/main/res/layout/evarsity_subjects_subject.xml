@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.webarch.srmobile.activities.sub.views.TableRowButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_subjects_subject_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_margin="@dimen/border_2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_subjects_subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginBottom="@dimen/border_2"
+        android:layout_marginRight="@dimen/border_2"
+        android:layout_marginTop="@dimen/border_2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/evarsity_subjects_subject_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/border_2"
+        android:layout_marginRight="@dimen/border_2"
+        android:layout_marginTop="@dimen/border_2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+</com.webarch.srmobile.activities.sub.views.TableRowButton>

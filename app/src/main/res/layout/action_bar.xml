@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.webarch.srmobile.views.colorbuttons.ImageButton
+        android:id="@+id/action_bar_quick_access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/border_2"
+        android:src="@drawable/action_bar_quick_access"
+        app:normal_color="@android:color/transparent"
+        app:pressed_color="@color/normal" />
+
+    <com.webarch.srmobile.views.actionbar.BackButton
+        android:id="@+id/action_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/action_bar_quick_access"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/border_2"
+            android:src="@drawable/action_bar_back_arrow" />
+
+        <com.webarch.srmobile.views.Text
+            android:id="@+id/action_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/border_2"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_1" />
+
+    </com.webarch.srmobile.views.actionbar.BackButton>
+
+    <com.webarch.srmobile.views.colorbuttons.ImageButton
+        android:id="@+id/action_bar_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/border_2"
+        android:src="@drawable/action_bar_search"
+        app:normal_color="@android:color/transparent"
+        app:pressed_color="@color/normal" />
+
+</merge>

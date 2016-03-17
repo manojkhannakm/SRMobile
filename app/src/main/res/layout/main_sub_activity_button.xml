@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.webarch.srmobile.activities.main.views.subactivitybutton.IconButton
+        android:id="@+id/main_sub_activity_button_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_sub_activity_button_icon_background"
+        android:paddingBottom="@dimen/border_2"
+        android:paddingLeft="@dimen/border_1"
+        android:paddingRight="@dimen/border_1"
+        android:paddingTop="@dimen/border_1"
+        app:normal_color="@color/normal"
+        app:pressed_color="@color/dark" />
+
+    <com.webarch.srmobile.views.Text
+        android:id="@+id/main_sub_activity_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_sub_activity_button_icon"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/border_1"
+        android:paddingLeft="@dimen/border_1"
+        android:paddingRight="@dimen/border_1"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_2" />
+
+</merge>

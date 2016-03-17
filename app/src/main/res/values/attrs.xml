@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="SubActivityButton">
+
+        <attr name="activity" format="string" />
+
+        <attr name="icon" format="integer" />
+
+        <attr name="text" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ImageButton">
+
+        <attr name="normal_color" format="color" />
+
+        <attr name="pressed_color" format="color" />
+
+    </declare-styleable>
+
+</resources>

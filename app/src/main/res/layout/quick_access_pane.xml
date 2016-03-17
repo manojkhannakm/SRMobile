@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.webarch.srmobile.views.quickaccess.UserButton
+        android:id="@+id/quick_access_pane_user_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/border_2" />
+
+</merge>

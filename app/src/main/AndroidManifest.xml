@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webarch.srmobile">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/TranslucentTheme">
+
+        <activity
+            android:name=".activities.main.MainActivity"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activities.sub.about.AboutActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.faculties.FacultiesActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.news.NewsActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.evarsity.EvarsityActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.ecampus.EcampusActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.planner.PlannerActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.credits.CreditsActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.links.LinksActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.sub.feedback.FeedbackActivity"
+            android:launchMode="singleTop" />
+
+        <!--<meta-data-->
+        <!--android:name = "com.google.android.gms.version"-->
+        <!--android:value = "@integer/google_play_services_version" />-->
+
+    </application>
+
+</manifest>

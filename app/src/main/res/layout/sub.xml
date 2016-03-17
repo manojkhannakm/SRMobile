@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.webarch.srmobile.views.actionbar.ActionBar
+        android:id="@+id/sub_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sub_action_bar"
+        android:background="@color/light"
+        android:scaleType="fitXY"
+        android:src="@drawable/oval_background" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/sub_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sub_action_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.webarch.srmobile.activities.sub.views.SlidingTabLayout
+                android:id="@+id/sub_sliding_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.webarch.srmobile.activities.sub.views.ViewPager
+                android:id="@+id/sub_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <com.webarch.srmobile.views.quickaccess.QuickAccessPane
+            android:id="@+id/sub_quick_access_pane"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:orientation="vertical" />
+
+        <com.webarch.srmobile.views.search.SearchPane
+            android:id="@+id/sub_search_pane"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:orientation="vertical" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

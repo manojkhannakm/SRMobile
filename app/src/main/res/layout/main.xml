@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/main_header" />
+
+        <com.webarch.srmobile.views.actionbar.ActionBar
+            android:id="@+id/main_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_header" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_action_bar"
+            android:background="@color/light"
+            android:scaleType="fitXY"
+            android:src="@drawable/oval_background" />
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/main_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_action_bar">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/main_sub_activity_buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/border_1">
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        app:activity="com.webarch.srmobile.activities.sub.about.AboutActivity"
+                        app:icon="@drawable/main_sub_activity_button_about_icon"
+                        app:text="About" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_faculties"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        app:activity="com.webarch.srmobile.activities.sub.faculties.FacultiesActivity"
+                        app:icon="@drawable/main_sub_activity_button_faculties_icon"
+                        app:text="Faculties" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_news"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        app:activity="com.webarch.srmobile.activities.sub.news.NewsActivity"
+                        app:icon="@drawable/main_sub_activity_button_news_icon"
+                        app:text="News" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_evarsity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/main_sub_activity_button_about"
+                        app:activity="com.webarch.srmobile.activities.sub.evarsity.EvarsityActivity"
+                        app:icon="@drawable/main_sub_activity_button_evarsity_icon"
+                        app:text="E-varsity" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_ecampus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main_sub_activity_button_faculties"
+                        android:layout_centerHorizontal="true"
+                        app:activity="com.webarch.srmobile.activities.sub.ecampus.EcampusActivity"
+                        app:icon="@drawable/main_sub_activity_button_ecampus_icon"
+                        app:text="E-campus" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_planner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/main_sub_activity_button_news"
+                        app:activity="com.webarch.srmobile.activities.sub.planner.PlannerActivity"
+                        app:icon="@drawable/main_sub_activity_button_planner_icon"
+                        app:text="Planner" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_credits"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/main_sub_activity_button_evarsity"
+                        app:activity="com.webarch.srmobile.activities.sub.credits.CreditsActivity"
+                        app:icon="@drawable/main_sub_activity_button_credits_icon"
+                        app:text="Credits" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_links"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main_sub_activity_button_ecampus"
+                        android:layout_centerHorizontal="true"
+                        app:activity="com.webarch.srmobile.activities.sub.links.LinksActivity"
+                        app:icon="@drawable/main_sub_activity_button_links_icon"
+                        app:text="Links" />
+
+                    <com.webarch.srmobile.activities.main.views.subactivitybutton.SubActivityButton
+                        android:id="@+id/main_sub_activity_button_feedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/main_sub_activity_button_planner"
+                        app:activity="com.webarch.srmobile.activities.sub.feedback.FeedbackActivity"
+                        app:icon="@drawable/main_sub_activity_button_feedback_icon"
+                        app:text="Feedback" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+            <com.webarch.srmobile.views.quickaccess.QuickAccessPane
+                android:id="@+id/main_quick_access_pane"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:orientation="vertical" />
+
+            <com.webarch.srmobile.views.search.SearchPane
+                android:id="@+id/main_search_pane"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:orientation="vertical" />
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/border_1"
+            android:layout_marginTop="@dimen/border_1"
+            android:src="@drawable/main_srm" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:src="@drawable/main_srmobile" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/border_1"
+            android:layout_marginRight="@dimen/border_1"
+            android:src="@drawable/main_webarch" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

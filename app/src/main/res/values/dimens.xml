@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="border_1">15dp</dimen>
+
+    <dimen name="border_2">10dp</dimen>
+
+    <dimen name="border_3">5dp</dimen>
+
+    <dimen name="text_1">21sp</dimen>
+
+    <dimen name="text_2">18sp</dimen>
+
+    <dimen name="text_3">15sp</dimen>
+
+</resources>
