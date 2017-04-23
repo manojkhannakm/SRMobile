@@ -6,7 +6,7 @@
 
         <attr name="activity" format="string" />
 
-        <attr name="icon" format="integer" />
+        <attr name="icon" format="reference" />
 
         <attr name="text" format="string" />
 
